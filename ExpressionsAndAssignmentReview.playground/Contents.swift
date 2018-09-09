@@ -15,3 +15,16 @@
  
 */
 
+/* You want to measure your yard to get an idea of the dimensions because you are looking to sell pieces of your land soon. Make two constants, width and length. Set width to 20,000.0 feet and length to 5,000 feet. Find the perimeter and area of your yard. You sell half of your yard to your neighbor so divide your area in half. You acquire 5000 more square feet in land, add this to your area. You finish by selling 30,000 square feet to your oldest daughter.
+ */
+
+let width = 20000.0
+let length = 5000
+let perimeter = 2 * (length * Int(width))
+var area = Double(length) * width
+area /= 2
+area += 5000
+area -= 30000
+
+
+
